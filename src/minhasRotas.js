@@ -4,6 +4,7 @@ import Home from './Home';
 import Semana01 from './Semana01'; // nova página da semana
 import Atv01 from './Atv01';
 import Atv02 from './Atv02';
+import Semana02 from './Semana02';
 
 export default function MinhasRotas() {
   return (
@@ -13,6 +14,7 @@ export default function MinhasRotas() {
         <Route path="/semana01" element={<Semana01 />} />
         <Route path="/atv01" element={<Atv01 />} />
         <Route path="/atv02" element={<Atv02 />} />
+        <Route path="/semana02" element={<Semana02 />} />
       </Routes>
     </BrowserRouter>
   );
