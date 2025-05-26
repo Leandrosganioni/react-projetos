@@ -13,7 +13,7 @@ const Home = () => {
 
           <li><Link to="/semana02">Semana 03</Link></li>
 
-
+          <li><Link to="/semana04">Semana 04</Link></li>
 
         </ul>
       </nav>
