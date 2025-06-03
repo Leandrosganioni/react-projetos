@@ -33,6 +33,7 @@ import FormTicket from './Components/FormTicket';
 import Accordion from './Components/Accordion';
 import ChatApp from './Components/ChatApp';
 
+import App from './/loja/App';
 
 export default function MinhasRotas() {
   return (
@@ -69,6 +70,8 @@ export default function MinhasRotas() {
         <Route path="/semana05/accordion" element={<Accordion />} />
         <Route path="/semana05/chat" element={<ChatApp />} />
 
+        <Route path='/loja' element={<App/>}/>
+        
       </Routes>
     </BrowserRouter>
   );
